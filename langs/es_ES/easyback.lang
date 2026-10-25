@@ -1,0 +1,68 @@
+# Translation file
+
+#
+# Generic
+#
+
+# Module label 'ModuleEasyBackName'
+ModuleEasyBackName = EasyBack
+# Module description 'ModuleEasyBackDesc'
+ModuleEasyBackDesc = Devoluciones unificadas en ventas y compras
+
+#
+# Admin page
+#
+EasyBackSetup = Configuración de EasyBack
+Settings = Configuración
+EasyBackSetupPage = Página de configuración de EasyBack
+EASYBACK_DEVOLUCION_VENTA=Mostrar el botón Devolución en facturas de venta
+EASYBACK_DEVOLUCION_COMPRA=Mostrar el botón Devolución en facturas de compra
+EASYBACK_AUTO_VALIDAR=Validar automáticamente la factura de abono al procesar la devolución
+EASYBACK_REINTEGRO_STOCK=Delegar el reintegro/salida de stock al validate() del core
+
+#
+# Devolución (return) UI
+#
+EasyBackDevolucion = Devolución
+EasyBackProcesarReverso = Procesar reverso
+EasyBackSeleccionLineas = Selecciona las líneas a devolver
+EasyBackCancelar = Cancelar
+EasyBackReversoTot = Total a reversar
+EasyBackSinPagos = Esta factura no tiene pagos registrados.
+EasyBackErrorSinLineas = Debes seleccionar al menos una línea a devolver.
+EasyBackErrorMarcaPago = Debes marcar al menos un pago a reversar.
+EasyBackErrorExcede = El total del reverso supera el importe de la factura de abono.
+EasyBackErrorLineasDevueltas = Las líneas seleccionadas ya fueron devueltas por completo.
+EasyBackErrorNadaReembolsar = No queda importe por reembolsar: lo cobrado en la factura ya fue devuelto.
+EasyBackAvisoSinReembolso = <b>Atención:</b> la factura de abono %s ya está validada y el stock ya fue reintegrado, pero el reembolso de <b>%s</b> todavía no se registró. Si cierras ahora, el dinero no queda devuelto: tendrás que registrar el pago manualmente en la factura de abono.
+EasyBackVolver = Volver al reembolso
+EasyBackCerrarSinReembolso = Cerrar sin reembolsar
+EasyBackDevolucionTotal = Devolución total
+EasyBackProcesarDevolucion = Procesar devolución
+EasyBackLineasDevueltas = Líneas devueltas
+EasyBackCerrar = Cerrar
+EasyBackPagosRealizados = Pagos realizados
+EasyBackMontoDevolver = Monto a devolver
+EasyBackSinPagosTotal = Esta factura no tiene pagos: el abono cancela la deuda pendiente.
+EasyBackAbonoCreado = Factura de abono %s creada.
+EasyBackSelectWarehouse = Selecciona el almacén para el movimiento de stock
+EasyBackValidarAbono = Validar abono
+EasyBackExito = Devolución procesada correctamente
+EasyBackAviso = Aviso
+EasyBackAceptar = Aceptar
+EasyBackVerNota = Abrir nota de devolución
+EasyBackYaDevuelta = Esta factura ya fue devuelta con el abono %s.
+EasyBackErrorSinPagos = La factura no tiene pagos que reversar.
+EasyBackErrorSinCuenta = No hay una cuenta bancaria válida para el reverso: debe estar abierta y en la moneda principal o en la moneda de la nota de crédito.
+EasyBackErrorAlmacen = Debes seleccionar el almacén para el reintegro de stock.
+
+#
+# About page
+#
+About = Acerca de
+EasyBackAbout = Acerca de EasyBack
+EasyBackAboutPage = Página "Acerca de" de EasyBack
+
+# Source invoice checks
+EasyBackErrorFacturaOrigen = Solo se puede devolver una factura validada o pagada que no sea una nota de crédito.
+EasyBackErrorToken = Token de seguridad inválido o vencido. Recargue la página.

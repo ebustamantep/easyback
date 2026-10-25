@@ -1,0 +1,68 @@
+# Translation file
+
+#
+# Generic
+#
+
+# Module label 'ModuleEasyBackName'
+ModuleEasyBackName = EasyBack
+# Module description 'ModuleEasyBackDesc'
+ModuleEasyBackDesc = Unified returns on customer and supplier invoices
+
+#
+# Admin page
+#
+EasyBackSetup = EasyBack setup
+Settings = Settings
+EasyBackSetupPage = EasyBack setup page
+EASYBACK_DEVOLUCION_VENTA=Show the Devolución button on customer invoices
+EASYBACK_DEVOLUCION_COMPRA=Show the Devolución button on supplier invoices
+EASYBACK_AUTO_VALIDAR=Automatically validate the credit note when processing the return
+EASYBACK_REINTEGRO_STOCK=Delegate stock reintegration/removal to the core validate()
+
+#
+# Return UI
+#
+EasyBackDevolucion = Return
+EasyBackProcesarReverso = Process reversal
+EasyBackSeleccionLineas = Select the lines to return
+EasyBackCancelar = Cancel
+EasyBackReversoTot = Total to reverse
+EasyBackSinPagos = This invoice has no registered payments.
+EasyBackErrorSinLineas = You must select at least one line to return.
+EasyBackErrorMarcaPago = You must check at least one payment to reverse.
+EasyBackErrorExcede = The total reversal exceeds the credit note amount.
+EasyBackErrorLineasDevueltas = The selected lines were already fully returned.
+EasyBackErrorNadaReembolsar = There is no amount left to refund: what the invoice collected was already returned.
+EasyBackAvisoSinReembolso = <b>Warning:</b> credit note %s is already validated and the stock was already returned, but the refund of <b>%s</b> is not registered yet. If you close now, the money is not refunded: you will have to register the payment manually on the credit note.
+EasyBackVolver = Back to the refund
+EasyBackCerrarSinReembolso = Close without refunding
+EasyBackDevolucionTotal = Full return
+EasyBackProcesarDevolucion = Process return
+EasyBackLineasDevueltas = Returned lines
+EasyBackCerrar = Close
+EasyBackPagosRealizados = Payments made
+EasyBackMontoDevolver = Amount to refund
+EasyBackSinPagosTotal = This invoice has no payments: the credit note only cancels the outstanding debt.
+EasyBackAbonoCreado = Credit note %s created.
+EasyBackSelectWarehouse = Select the warehouse for the stock movement
+EasyBackValidarAbono = Validate credit note
+EasyBackExito = Return processed successfully
+EasyBackAviso = Notice
+EasyBackAceptar = Accept
+EasyBackVerNota = Open credit note
+EasyBackYaDevuelta = This invoice was already returned with credit note %s.
+EasyBackErrorSinPagos = The invoice has no payments to reverse.
+EasyBackErrorSinCuenta = No valid bank account for the reversal: it must be open and in the main currency or in the credit note currency.
+EasyBackErrorAlmacen = You must select the warehouse for the stock reintegration.
+
+#
+# About page
+#
+About = About
+EasyBackAbout = About EasyBack
+EasyBackAboutPage = EasyBack about page
+
+# Source invoice checks
+EasyBackErrorFacturaOrigen = Only a validated or paid invoice that is not a credit note can be returned.
+EasyBackErrorToken = Invalid or expired security token. Reload the page.
